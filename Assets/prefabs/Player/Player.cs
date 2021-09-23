@@ -9,6 +9,14 @@ public class Player : MonoBehaviour
     [SerializeField] float groundCheckRadius = 0.1f;
     [SerializeField] LayerMask GroundLayerMask;
     [SerializeField] Transform groundCheck;
+
+    [SerializeField] LayerMask FloorAheadCheck;
+    [SerializeField] Transform FloorCheckForw;
+    [SerializeField] Transform FloorCheckBack;
+    [SerializeField] Transform FloorCheckLeft;
+    [SerializeField] Transform FloorCheckRight;
+
+
     [SerializeField] float rotationSpeed = 5;
     PlayerInputActions inputActions;
     Vector2 MoveInput;
@@ -20,6 +28,8 @@ public class Player : MonoBehaviour
     {
         return Physics.CheckSphere(groundCheck.position, groundCheckRadius, GroundLayerMask);
     }
+
+    
 
     private void Awake()
     {
@@ -55,6 +65,9 @@ public class Player : MonoBehaviour
         {
             Velocity.y = -0.2f;
         }
+        
+
+        
         //Debug.Log($"Player input is : {MoveInput}");
         Velocity.x = GetPlayerDesiredMoveDirection().x * walkingSpeed;
         Velocity.z = GetPlayerDesiredMoveDirection().z * walkingSpeed;
