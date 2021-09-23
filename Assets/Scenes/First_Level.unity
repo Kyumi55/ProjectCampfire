@@ -32245,6 +32245,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7016824361370280298, guid: 121a99ca31169034aaa6934390677605, type: 3}
+      propertyPath: rotationSpeed
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 959424773478765076, guid: 121a99ca31169034aaa6934390677605, type: 3}
       propertyPath: m_RootOrder
       value: 1
