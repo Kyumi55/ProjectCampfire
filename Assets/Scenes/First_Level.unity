@@ -2528,9 +2528,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 2079464395}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 285982216}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -4498,6 +4510,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 229895535}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &230755756 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 282239877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &237806654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5554,9 +5577,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 1839548752}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 230755756}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -5652,6 +5687,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+--- !u!114 &285982216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 136418225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &287537023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12340,6 +12386,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 626037669}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &627907616 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 1054450101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &643145027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13371,6 +13428,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5949435046076350016, guid: dbe836a054f552f40920e331a2a2b469, type: 3}
   m_PrefabInstance: {fileID: 691958378}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &695080802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2146324383}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &697612851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15883,6 +15951,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5236078868935419280, guid: fc3606814b105d944aebbeed94d35dc4, type: 3}
   m_PrefabInstance: {fileID: 785506653}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &788729084 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 827489188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &790393357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16696,9 +16775,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 788729084}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 1021689124}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -16872,6 +16963,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 828720165}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &830916152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2099159419}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &835743470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20725,6 +20827,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 1013942860}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021689124 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 827489188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1022802689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20947,6 +21060,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 1027230422}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1027609957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2099159419}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1028007720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21542,9 +21666,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 1384219711}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 627907616}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -28093,6 +28229,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 1378107009}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1384219711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 1054450101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1389310421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28750,7 +28897,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427816618}
-  m_LocalRotation: {x: 0.20440902, y: -0.67691725, z: 0.20440902, w: 0.67691725}
+  m_LocalRotation: {x: 0.204409, y: -0.67691725, z: 0.204409, w: 0.67691725}
   m_LocalPosition: {x: 13.34, y: 4.18, z: -4.9740734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -31429,6 +31576,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5236078868935419280, guid: fc3606814b105d944aebbeed94d35dc4, type: 3}
   m_PrefabInstance: {fileID: 1562977727}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1565269939 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2103638371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1569313361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36206,6 +36364,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7168614459428559337, guid: 121a99ca31169034aaa6934390677605, type: 3}
   m_PrefabInstance: {fileID: 1525621430}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1839548752 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 282239877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1840452105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39596,6 +39765,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7202008219029365073, guid: 60ee61b107ddee04ebe6b3afab332f46, type: 3}
   m_PrefabInstance: {fileID: 2022227711}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2027444966 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2146324383}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2028125578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39950,7 +40130,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059096375}
-  m_LocalRotation: {x: 0.20440902, y: -0.67691725, z: 0.20440902, w: 0.67691725}
+  m_LocalRotation: {x: 0.204409, y: -0.67691725, z: 0.204409, w: 0.67691725}
   m_LocalPosition: {x: 13.34, y: 4.18, z: -4.9740734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -40241,6 +40421,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3577866819122973540, guid: 2cc1a8e1096b2874d8412b9f3378b1e4, type: 3}
   m_PrefabInstance: {fileID: 2064002986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2065984813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 2103638371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2065984818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065984813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestinationCam: {fileID: 1565269939}
+  TransitionTime: 1
+  cinemachineBrain: {fileID: 2059096380}
 --- !u!1001 &2070684511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40575,6 +40775,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5236078868935419280, guid: fc3606814b105d944aebbeed94d35dc4, type: 3}
   m_PrefabInstance: {fileID: 2079243968}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2079464395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+  m_PrefabInstance: {fileID: 136418225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2086292914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41022,9 +41233,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 1027609957}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 830916152}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -41267,9 +41490,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 2065984818}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name
@@ -42112,13 +42339,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: DestinationCam
+      value: 
+      objectReference: {fileID: 695080802}
+    - target: {fileID: -7083174273330986130, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: cinemachineBrain
+      value: 
+      objectReference: {fileID: 2059096380}
+    - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
+      propertyPath: otherCamTrans
+      value: 
+      objectReference: {fileID: 2027444966}
     - target: {fileID: -2304188233539513426, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: cinemachineBrain
       value: 
       objectReference: {fileID: 2059096380}
     - target: {fileID: 797716053608100643, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.7784091
       objectReference: {fileID: 0}
     - target: {fileID: 5266609981586232412, guid: 209cfd3a662efa14cadb4ae9656fc5b6, type: 3}
       propertyPath: m_Name

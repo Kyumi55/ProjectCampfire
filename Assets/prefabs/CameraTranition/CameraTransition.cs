@@ -5,22 +5,25 @@ using Cinemachine;
 
 public class CameraTransition : MonoBehaviour
 {
-    [SerializeField] CinemachineVirtualCamera DestinationCam;
-    [SerializeField] float TransitionTime = 1.0f;
-    CinemachineBrain cinemachineBrain;
+    //[SerializeField] CinemachineVirtualCamera DestinationCam;
+    //[SerializeField] float TransitionTime = 1.0f;
+    //CinemachineBrain cinemachineBrain;
     // Start is called before the first frame update
+
+    public CamTransComponent otherCamTrans;
+
     private void Start()
     {
-        cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
+        //call the cinemachineBrain and properly set it
+        otherCamTrans.cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.GetComponent<Player>() != null)
         {
-            cinemachineBrain.m_DefaultBlend.m_Time = TransitionTime;
-
-            DestinationCam.Priority = 11;
+            //Call the other script CamTransComponent
+            otherCamTrans.GrabColComp(other);
         }
     }
 
@@ -29,7 +32,8 @@ public class CameraTransition : MonoBehaviour
     {
         if (other.GetComponent<Player>() != null)
         {
-            DestinationCam.Priority = 9;
+            //Call the other script CamTransComponent
+            otherCamTrans.DestCamPriority();
         }
     }
 }

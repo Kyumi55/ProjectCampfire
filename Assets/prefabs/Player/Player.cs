@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-   
     [SerializeField] float LadderClimbCommitAngleDegrees = 20f;
     
     [SerializeField] LayerMask LadderLayerMask;
@@ -13,13 +12,11 @@ public class Player : MonoBehaviour
 
     LadderClimbingComponent climbingComp;
 
-    
-
-    LadderScript CurrentClimbingLadder;
-    List<LadderScript> LaddersNearby = new List<LadderScript>();
+    //LadderScript CurrentClimbingLadder;
+    //List<LadderScript> LaddersNearby = new List<LadderScript>();
     public float LadderHopOnTime = 0.5f; //set current time
     PlayerInputActions inputActions;
-    Vector2 MoveInput;
+    //Vector2 MoveInput;
     MovementComponent movementComp;
     //CharacterController characterController;
 
@@ -28,29 +25,6 @@ public class Player : MonoBehaviour
     {
         return PickupSocketTransform;
     }
-
-    //May be outdated code here
-    bool IsTouchingLadder()
-    {
-        Vector3 downward = transform.TransformDirection(Vector3.down) * 10;
-        Debug.DrawRay(transform.position, downward, Color.green, 500f);
-        print("WAO");
-        Ray ray = new Ray(transform.position, transform.up * -1);
-        RaycastHit hit;
-        float distance = 18f;
-        Physics.Raycast(ray, out hit, distance);
-        if (hit.distance > 0.5f)
-        {
-            print("Touching Ladder!");
-            return (true);
-        }
-        else
-        {
-            print("Not yet");
-            return (false);
-        }
-    }
-    
 
     private void Awake()
     {

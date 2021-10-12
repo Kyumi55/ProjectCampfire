@@ -209,6 +209,7 @@ public class MovementComponent : MonoBehaviour
         return Physics.CheckSphere(groundCheck.position, groundCheckRadius, GroundLayerMask);
     }
 
+    //Changed Coding for ladder to fix bug
     public IEnumerator SnapTransform(Transform SnapToTransformVar)
     {
         float currentTime = 0f; //set current time

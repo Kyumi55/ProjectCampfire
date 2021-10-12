@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 5552693493219464336}
   - component: {fileID: 5680634298988993874}
   - component: {fileID: -2304188233539513426}
+  - component: {fileID: -7083174273330986130}
   m_Layer: 0
   m_Name: CameraTransition
   m_TagString: Untagged
@@ -152,7 +153,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f761641cae50fc44b0ee6ed9b2c96cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestinationCam: {fileID: 797716053608100643}
+  otherCamTrans: {fileID: 0}
+--- !u!114 &-7083174273330986130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5266609981586232412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749fa719eb6c7814991e39bd8d8c61d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestinationCam: {fileID: 0}
   TransitionTime: 1
   cinemachineBrain: {fileID: 0}
 --- !u!1 &7899574899237101408
